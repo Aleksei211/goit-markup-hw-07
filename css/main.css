@@ -27,7 +27,7 @@ body {
 
 .logo1 {
   font-family: raleway;
-  color: #757575;
+  color: #212121;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -830,8 +830,10 @@ input:focus .modal__icon-form {
   border: 1px solid #2196f3;
 }
 
-.clients__list:focus .clients__icon,
-.clients__list:hover .clients__icon {
+.clients__list:focus:focus .clients__icon,
+.clients__list:focus:hover .clients__icon,
+.clients__list:hover:focus .clients__icon,
+.clients__list:hover:hover .clients__icon {
   fill: #2196f3;
 }
 

@@ -30,11 +30,11 @@
 .clients__list:focus,
 .clients__list:hover {
   border: 1px solid $accent-color;
-}
 
-.clients__list:focus .clients__icon,
-.clients__list:hover .clients__icon {
-  fill: $accent-color;
+  &:focus .clients__icon,
+  &:hover .clients__icon {
+    fill: $accent-color;
+  }
 }
 .clients__list:last-child {
   margin-right: 0;
